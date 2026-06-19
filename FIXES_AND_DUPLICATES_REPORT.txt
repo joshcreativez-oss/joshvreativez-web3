@@ -1,0 +1,36 @@
+FIXES APPLIED
+1) Removed unused duplicate WhatsApp images from assets/ (root) because they were not referenced anywhere.
+2) Removed duplicate cover.jpg files in sample galleries where cover.jpg was identical to the first image (01.jpg). The system now auto-uses the first image as the cover via the galleries manifest builder.
+3) Rebuilt assets/galleries/manifest.json to reflect the above changes.
+
+DUPLICATES REMAINING (INTENTIONAL / SAFE)
+These are identical files that are still present because they are used in different contexts (demo content) or are referenced by pages.
+
+- Size: 813384 bytes | MD5: 5dbeb891a9b37939daebbaf1e5d883e3
+  assets/album-cover.jpg
+  assets/placeholder.jpg
+
+- Size: 92827 bytes | MD5: ce27815840bca19fc7ff8e760bf5dfa9
+  assets/see-our-work/WhatsApp Image 2026-02-24 at 10.49.26 (3).jpeg
+  assets/galleries/weddings/amina-kevin/02.jpg
+  assets/galleries/engagements/sharon-nick/01.jpg
+
+- Size: 80203 bytes | MD5: 1c635b3f8f0f345e472c7bfe087b8ded
+  assets/see-our-work/WhatsApp Image 2026-02-24 at 10.49.26 (1).jpeg
+  assets/galleries/weddings/amina-kevin/01.jpg
+  assets/galleries/engagements/sharon-nick/02.jpg
+  assets/galleries/engagements/coastal-romance/02.jpg
+
+- Size: 41877 bytes | MD5: 15d4c1871571bd884cd7bb3e7ce85187
+  assets/see-our-work/WhatsApp Image 2026-02-24 at 10.49.25 (3).jpeg
+  assets/galleries/weddings/chama-faith/01.jpg
+  assets/galleries/engagements/coastal-romance/01.jpg
+
+- Size: 37 bytes | MD5: 3530eadc3521877dbbb40c4e2ac042c5
+  assets/albums/engagements/manifest.json
+  assets/albums/fashion/manifest.json
+  assets/albums/portraits/manifest.json
+  assets/albums/weddings/manifest.json
+
+NOTE
+- If you want to fully eliminate remaining image duplicates, we can replace the demo albums so each album has unique images, or keep only one copy and update all references. I did not auto-delete referenced files (e.g., placeholder.jpg) to avoid breaking any pages.
