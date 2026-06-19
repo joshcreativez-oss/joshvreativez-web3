@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#4b4b52"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#r)"/>
+  <g opacity=".92">
+    <text x="80" y="430" fill="#ffffff" font-family="Georgia, serif" font-size="72" letter-spacing="12">JOSHCREATIVEZ</text>
+    <text x="84" y="510" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" letter-spacing="10" opacity=".85">VISUALS · WEDDINGS · ENGAGEMENTS · EVENTS</text>
+  </g>
+</svg>

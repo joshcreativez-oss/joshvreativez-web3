@@ -1,0 +1,69 @@
+{
+  "categories": {
+    "decor-detail": {
+      "label": "Decor & Details",
+      "base": "assets/galleries/decor-detail",
+      "albums": {},
+      "files": [],
+      "videos": []
+    },
+    "engagements": {
+      "label": "Engagements",
+      "base": "assets/galleries/engagements",
+      "albums": {
+        "coastal-romance": {
+          "title": "Coastal & Romance",
+          "cover": "assets/galleries/engagements/coastal-romance/01.jpg",
+          "images": [
+            "assets/galleries/engagements/coastal-romance/02.jpg"
+          ]
+        },
+        "sharon-nick": {
+          "title": "Sharon & Nick",
+          "cover": "assets/galleries/engagements/sharon-nick/01.jpg",
+          "images": [
+            "assets/galleries/engagements/sharon-nick/02.jpg"
+          ]
+        }
+      },
+      "files": [],
+      "videos": []
+    },
+    "portraits": {
+      "label": "Portraits",
+      "base": "assets/galleries/portraits",
+      "albums": {},
+      "files": [],
+      "videos": []
+    },
+    "videos": {
+      "label": "Videos",
+      "base": "assets/galleries/videos",
+      "albums": {},
+      "files": [],
+      "videos": []
+    },
+    "weddings": {
+      "label": "Weddings",
+      "base": "assets/galleries/weddings",
+      "albums": {
+        "amina-kevin": {
+          "title": "Amina & Kevin",
+          "cover": "assets/galleries/weddings/amina-kevin/01.jpg",
+          "images": [
+            "assets/galleries/weddings/amina-kevin/02.jpg"
+          ]
+        },
+        "chama-faith": {
+          "title": "Chama & Faith",
+          "cover": "assets/galleries/weddings/chama-faith/01.jpg",
+          "images": [
+            "assets/galleries/weddings/chama-faith/02.jpg"
+          ]
+        }
+      },
+      "files": [],
+      "videos": []
+    }
+  }
+}
